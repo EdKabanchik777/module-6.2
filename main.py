@@ -39,7 +39,7 @@ class Sedan(Vehicle):
         super().__init__(owner, model, engine_power, color)
 
 
-vehicle1 = Sedan('Fedos', 'Toyota Mark II', 'blue', 500)
+vehicle1 = Sedan('Fedos', 'Toyota Mark II', 500, 'blue')
 
 vehicle1.print_info()
 
